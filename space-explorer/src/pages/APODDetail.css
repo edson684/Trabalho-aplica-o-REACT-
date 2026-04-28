@@ -1,0 +1,117 @@
+.apod-detail {
+  padding-bottom: 5rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin: 2rem 0 0;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: var(--accent-cyan);
+}
+
+.detail-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  margin-top: 2rem;
+  align-items: start;
+}
+
+.detail-media {
+  position: sticky;
+  top: 90px;
+}
+
+.detail-img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--glass-border);
+  display: block;
+}
+
+.detail-video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 12px;
+  border: 1px solid var(--glass-border);
+}
+
+.detail-credit {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-top: 0.6rem;
+  text-align: right;
+}
+
+.detail-info {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.detail-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.detail-date {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+}
+
+.detail-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(1.2rem, 2.5vw, 1.7rem);
+  font-weight: 900;
+  line-height: 1.2;
+  color: var(--text-primary);
+}
+
+.detail-explanation {
+  font-size: 0.92rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.btn-detail {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.65rem 1.4rem;
+  background: rgba(0, 212, 255, 0.1);
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: 7px;
+  color: var(--accent-cyan);
+  font-family: 'Space Mono', monospace;
+  font-size: 0.78rem;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: all 0.2s;
+  align-self: flex-start;
+}
+
+.btn-detail:hover {
+  background: rgba(0, 212, 255, 0.18);
+  box-shadow: var(--glow-cyan);
+}
+
+@media (max-width: 768px) {
+  .detail-layout {
+    grid-template-columns: 1fr;
+  }
+  .detail-media { position: static; }
+}
