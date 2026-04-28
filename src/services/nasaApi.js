@@ -1,4 +1,4 @@
-const API_KEY = 'DEMO_KEY';
+const API_KEY = 'ukHxPTewpi57QX4HfuHNUdsoJxrk0qlIcpAMHvJC';
 const BASE_URL = 'https://api.nasa.gov';
 
 const ROVER_SOLS = {
