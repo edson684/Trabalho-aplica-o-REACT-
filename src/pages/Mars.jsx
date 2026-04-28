@@ -10,11 +10,10 @@ const CAMERAS = {
   opportunity: ['', 'FHAZ', 'RHAZ', 'NAVCAM', 'PANCAM'],
   spirit: ['', 'FHAZ', 'RHAZ', 'NAVCAM', 'PANCAM'],
 };
-
 const ROVER_INFO = {
-  curiosity: { sol: 1000, emoji: '🤖', color: 'cyan', status: 'Ativo' },
-  opportunity: { sol: 500, emoji: '🛰️', color: 'gold', status: 'Encerrado 2019' },
-  spirit: { sol: 200, emoji: '🔭', color: 'orange', status: 'Encerrado 2010' },
+  curiosity: { sol: 3500, emoji: '🤖', color: 'cyan', status: 'Ativo' },
+  opportunity: { sol: 5000, emoji: '🛰️', color: 'gold', status: 'Encerrado 2019' },
+  spirit: { sol: 900, emoji: '🔭', color: 'orange', status: 'Encerrado 2010' },
 };
 
 export default function Mars() {
