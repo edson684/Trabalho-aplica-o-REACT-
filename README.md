@@ -2,7 +2,7 @@
 
 > Aplicação React que consome APIs da NASA para explorar o universo — imagens astronômicas e asteroides próximos à Terra.
 
-🌐 **[Acesse a aplicação online](https://trabalhodsw-bosyowfh0-hucklouco-2981s-projects.vercel.app)**
+🌐 **[Acesse a aplicação online](https://trabalhodsw-63v4igf0v-hucklouco-2981s-projects.vercel.app/)**
 
 ---
 
