@@ -11,14 +11,6 @@ const features = [
     color: 'cyan',
   },
   {
-    icon: '🔴',
-    title: 'Marte',
-    subtitle: 'Mars Rover Photos',
-    desc: 'Veja fotos capturadas pelos rovers Curiosity, Opportunity e Perseverance na superfície marciana.',
-    link: '/mars',
-    color: 'orange',
-  },
-  {
     icon: '☄️',
     title: 'Asteroides',
     subtitle: 'Near Earth Objects',
