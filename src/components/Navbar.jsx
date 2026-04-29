@@ -22,11 +22,6 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/mars" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
-              Marte
-            </NavLink>
-          </li>
-          <li>
             <NavLink to="/neo" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
               Asteroides
             </NavLink>
